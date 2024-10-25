@@ -11,7 +11,8 @@ export default {
       colors: {
         primary: "#38B6FF",
         secondary: "#00A1FF",
-        dark: "#111111"
+        dark: "#111111",
+        overlay: "rgba(17, 17, 17, 0.5)"
       }
     },
   },
