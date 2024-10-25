@@ -43,10 +43,11 @@ The **El-Genius Tech** website serves as an online presence for El-Genius Tech, 
 
 The main directories in this project include:
 
+- **public**: Static assets and index.html
+  - **/assets**: Images, icons, and other static assets
 - **/src**: Contains the main source code
   - **/components**: Reusable components like headers, footers, and navigations
   - **/pages**: Each page (Home, About Us, Services, etc.) is structured as a React component
-  - **/assets**: Images, icons, and other static assets
 - **tailwind.config.js**: Tailwind CSS configuration
 - **vite.config.js**: Vite configuration for development and build setup
 - **README.md**: Project documentation (you are here)

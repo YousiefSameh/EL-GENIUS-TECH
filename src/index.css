@@ -14,3 +14,12 @@
 html {
   font-family: "Poppins", sans-serif;
 }
+
+@layer base {
+  .btn-style {
+    @apply bg-primary text-white text-xl px-6 py-3 rounded-[12px] font-bold transition-all hover:bg-secondary
+  }
+  .nav-link {
+    @apply text-white font-semibold text-base transition-all hover:text-primary
+  }
+}
