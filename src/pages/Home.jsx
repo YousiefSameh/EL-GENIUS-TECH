@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 const Home = () => {
   const [data] = useState([
@@ -63,7 +63,7 @@ const Home = () => {
                   <h3 className="text-[18px] text-white">{project.type}</h3>
                   <h2 className="text-[28px] text-white font-bold">{project.title}</h2>
                   <button className="btn-style block mt-2">
-                    <Link to={"google.com"}>Show Now</Link>
+                    <a href="https://www.google.com">Show Now</a>
                   </button>
                 </div>
               </div>

@@ -11,31 +11,31 @@ const Footer = () => {
         <div className="col">
           <h3 className="text-white font-bold text-2xl pb-4"><span className="text-primary">Q</span>uick <span className="text-primary">L</span>inks</h3>
           <ul className="space-y-4">
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/"}>Home</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/"}>Home</Link>
             </li>
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/about"}>About Us</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/about"}>About Us</Link>
             </li>
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/services"}>Services</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/services"}>Services</Link>
             </li>
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/portfolio"}>Portfolio</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/portfolio"}>Portfolio</Link>
             </li>
           </ul>
         </div>
         <div className="col">
           <h3 className="text-white font-bold text-2xl pb-4"><span className="text-primary">Q</span>uick <span className="text-primary">L</span>inks</h3>
           <ul className="space-y-4">
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/pricing"}>Pricing</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/pricing"}>Pricing</Link>
             </li>
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/testimonials"}>Testimonials</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/testimonials"}>Testimonials</Link>
             </li>
-            <li className="text-white font-bold transition-all hover:text-primary">
-              <Link to={"/contact"}>Contact Us</Link>
+            <li>
+              <Link className="text-white font-bold transition-all hover:text-primary" to={"/contact"}>Contact Us</Link>
             </li>
           </ul>
         </div>

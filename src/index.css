@@ -23,6 +23,6 @@ html {
     @apply text-white font-semibold text-base transition-all hover:text-primary
   }
   .input-style {
-    @apply bg-[#1e1e1e] placeholder:text-white placeholder:text-lg font-bold px-6 py-4 rounded-[12px] outline-none border border-[#1e1e1e] focus:border-primary
+    @apply bg-[#1e1e1e] placeholder:text-white placeholder:text-lg font-semibold px-6 py-4 rounded-[12px] outline-none border border-[#1e1e1e] focus:border-primary
   }
 }
