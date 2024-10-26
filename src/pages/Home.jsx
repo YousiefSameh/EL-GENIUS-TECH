@@ -82,11 +82,11 @@ const Home = () => {
           <div className="grid grid-cols-1 px-6 md:px-0 md:grid-cols-2 gap-6 mt-6">
             <div className="bg-black p-8 rounded-[28px] flex flex-col gap-8">
               <p className="italic text-white font-semibold text-lg leading-loose">&quot;The team at EL-GENIUS TECH exceeded our expectations! Their expertise and dedication helped our business grow faster than we imagined. Highly recommended!&quot;</p>
-              <p className="font-bold text-primary">– Sarah Johnson, CEO of GreenTech Solutions</p>
+              <p className="font-bold text-primary">– Sarah Johnson</p>
             </div>
             <div className="bg-black p-8 rounded-[28px] flex flex-col gap-8">
               <p className="italic text-white font-semibold text-lg leading-loose">&quot;The team at EL-GENIUS TECH exceeded our expectations! Their expertise and dedication helped our business grow faster than we imagined. Highly recommended!&quot;</p>
-              <p className="font-bold text-primary">– Sarah Johnson, CEO of GreenTech Solutions</p>
+              <p className="font-bold text-primary">– Sarah Johnson</p>
             </div>
           </div>
         </div>
