@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /pricing
+Disallow: /testimonials
+Disallow: /contact
+Allow: /
