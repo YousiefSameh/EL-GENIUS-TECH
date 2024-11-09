@@ -86,7 +86,7 @@ const Header = () => {
 								<button className="btn-style w-full"><Link to="/login">Login</Link></button>
 							</div>
 						)}
-						<button className="btn-style w-full" onClick={toggleLanguage}>{isArabic ? "English" : "العربية"}</button>
+						<button className="btn-style w-full mt-4" onClick={toggleLanguage}>{isArabic ? "English" : "العربية"}</button>
 					</div>
 				</div>
 			</div>

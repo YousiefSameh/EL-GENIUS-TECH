@@ -32,29 +32,30 @@ const Services = () => {
 							/>
 						</div>
 						<h2 className="text-white font-bold text-[22px] text-center">
-							User Interface (UI) Design
+							UI/UX Design
 						</h2>
 						<p className="text-white text-justify leading-loose">
-							We design visually appealing and interactive interfaces that bring
-							brands to life. Our UI design process includes visual design,
-							interaction design, and front-end development.
+							We create intuitive and engaging user experiences that align with
+							user needs and business goals. Our UI/UX design process includes
+							user research, wireframing, prototyping, and usability testing.
 						</p>
 					</div>
 					<div className="col flex w-[90%] md:w-full flex-col items-center space-y-4 bg-[#1e1e1e] p-8 rounded-[28px]">
 						<div className="icon w-[130px] h-[130px] bg-dark flex items-center justify-center rounded-full">
 							<img
-								src="/assets/service1.svg"
+								src="/assets/serviceMobile.svg"
 								className="w-[80px] h-[80px]"
 								alt=""
 							/>
 						</div>
 						<h2 className="text-white font-bold text-[22px] text-center">
-							User Experience (UX) Design
+							Mobile Application
 						</h2>
 						<p className="text-white text-justify leading-loose">
-							We craft intuitive and user-centered design experiences that meet
-							business goals and user needs. Our UX design process includes user
-							research, wireframing, prototyping, and usability testing.
+							We develop high-performance mobile applications using Dart and
+							Flutter to create beautiful, fast, and scalable cross-platform
+							solutions. Our process includes UI design, development, testing,
+							and optimization for both iOS and Android platforms.
 						</p>
 					</div>
 					<div className="col flex w-[90%] md:w-full flex-col items-center space-y-4 bg-[#1e1e1e] p-8 rounded-[28px]">
@@ -88,7 +89,7 @@ const Services = () => {
 						</h2>
 						<p className="text-white text-justify leading-loose">
 							We build secure and scalable back-end systems using technologies
-							like Node.js, Python, and SQL/NoSQL databases. Our process covers
+							like Node.js, and SQL/NoSQL databases. Our process covers
 							architecture, coding, and deployment to ensure reliable data
 							handling and smooth server performance.
 						</p>
