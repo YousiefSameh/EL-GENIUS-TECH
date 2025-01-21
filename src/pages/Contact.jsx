@@ -90,7 +90,7 @@ const Contact = () => {
 							1234 Elm Street, Suite 567 Springfield, IL 62704, USA
 						</p>
 					</div>
-					<div className="mt-12">
+					<div className="mt-12 flex flex-col gap-3">
 						<h2 className="text-4xl font-bold text-white z-40 relative">
 							<span className="text-primary">C</span>ontact{" "}
 							<span className="text-primary">O</span>n{" "}
