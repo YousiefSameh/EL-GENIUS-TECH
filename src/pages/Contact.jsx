@@ -96,12 +96,12 @@ const Contact = () => {
 							<span className="text-primary">O</span>n{" "}
 							<span className="text-primary">P</span>hones
 						</h2>
-						<p className="text-lg text-white mt-2 font-semibold z-40 relative">
+						<a href="tel:0123456789" className="text-lg text-white mt-2 font-semibold z-40 relative">
 							+(20) 123-456-7890
-						</p>
-						<p className="text-lg text-white mt-2 font-semibold z-40 relative">
+						</a>
+						<a href="tel:0123456789" className="text-lg text-white mt-2 font-semibold z-40 relative">
 							+(20) 987-654-3210
-						</p>
+						</a>
 					</div>
 				</div>
 			</div>

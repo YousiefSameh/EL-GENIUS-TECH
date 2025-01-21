@@ -27,7 +27,7 @@ const ForgetPassword = () => {
 
 		try {
 			const response = await fetch(
-				"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/auth/forgotPassword",
+				"https://el-genius-tech-back.vercel.app/api/auth/forgotPassword",
 				{
 					method: "POST",
 					headers: {

@@ -27,7 +27,7 @@ const ArVerifyCode = () => {
 
 		try {
 			const response = await fetch(
-				"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/auth/verifyResetCode",
+				"https://el-genius-tech-back.vercel.app/api/auth/verifyResetCode",
 				{
 					method: "POST",
 					headers: {

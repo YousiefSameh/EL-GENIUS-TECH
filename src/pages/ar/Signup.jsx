@@ -40,7 +40,7 @@ const Register = () => {
 
 		try {
 			const response = await fetch(
-				"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/auth/signup",
+				"https://el-genius-tech-back.vercel.app/api/auth/signup",
 				{
 					method: "POST",
 					headers: {

@@ -33,7 +33,7 @@ const Login = () => {
 
 		try {
 			const response = await fetch(
-				"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/auth/login",
+				"https://el-genius-tech-back.vercel.app/api/auth/login",
 				{
 					method: "POST",
 					headers: {

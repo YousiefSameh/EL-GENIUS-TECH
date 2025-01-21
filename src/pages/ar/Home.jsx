@@ -9,7 +9,7 @@ const ArHome = () => {
 		const fetchProjects = async () => {
 			try {
 				const res = await fetch(
-					"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/projects"
+					"https://el-genius-tech-back.vercel.app/api/projects"
 				);
 				if (!res.ok) {
 					console.error("API call failed:", await res.text());
@@ -95,7 +95,9 @@ const ArHome = () => {
 										{project.title}
 									</h2>
 									<button className="btn-style block mt-2">
-										<a href="https://www.google.com">شاهد الآن</a>
+										<a href={project.link} target="_blank">
+											شاهد الآن
+										</a>
 									</button>
 								</div>
 							</div>

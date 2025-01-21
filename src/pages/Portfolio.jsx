@@ -11,7 +11,7 @@ const Portfolio = () => {
 		const fetchProjects = async () => {
 			try {
 				const res = await fetch(
-					"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/projects"
+					"https://el-genius-tech-back.vercel.app/api/projects"
 				);
 				if (!res.ok) {
 					console.error("API call failed:", await res.text());

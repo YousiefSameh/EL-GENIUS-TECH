@@ -37,7 +37,7 @@ const ArResetPassword = () => {
 
 		try {
 			const response = await fetch(
-				"https://straight-marleen-yousiefsameh-d326cffb.koyeb.app/api/auth/resetPassword",
+				"https://el-genius-tech-back.vercel.app/api/auth/resetPassword",
 				{
 					method: "PUT",
 					headers: {
