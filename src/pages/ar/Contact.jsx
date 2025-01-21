@@ -90,7 +90,7 @@ const Contact = () => {
 							1234 شارع إلم، الجناح 567، سبرينغفيلد، IL 62704، الولايات المتحدة
 						</p>
 					</div>
-					<div className="mt-12">
+					<div className="mt-12 flex flex-col gap-3">
 						<h2 className="text-4xl font-bold text-white z-40 relative">
 							<span className="text-primary">الت</span>واصل{" "}
 							<span className="text-primary">ع</span>ن{" "}
